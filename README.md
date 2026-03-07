@@ -23,9 +23,8 @@ The architecture adheres to **Serverless Principles**, prioritizing horizontal s
 ### 🔄 Architectural Flow (Sequential Ingestion)
 ```mermaid
 graph TD
-    User[Patient / User] -->|1. Interaction| LINE_In[LINE Messaging API]
-    LINE_In -->|2. Redirect| WebApp[Next.js Application]
-    WebApp -->|3. Data Validation| API[RESTful API - Google Apps Script]
-    API -->|4. ACID Transaction| DB[(Cloud Persistence Layer)]
-    DB -->|5. Trigger Alert| Notify[LINE Messaging Gateway]
-    Notify -->|6. Nurse Notification| Nursing[LINE Flex Message Interface]
+    User[Patient / User] -->|1. Access Registration Form| WebApp[Next.js Application]
+    WebApp -->|2. Data Validation| API[RESTful API - Google Apps Script]
+    API -->|3. ACID Transaction| DB[(Cloud Persistence Layer)]
+    DB -->|4. Trigger Alert| Notify[LINE Messaging Gateway]
+    Notify -->|5. Nurse Notification| Nursing[LINE Flex Message Interface]
