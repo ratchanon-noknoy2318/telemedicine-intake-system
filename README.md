@@ -127,4 +127,4 @@ app/   Next.js application (UI, routing, API routes)
 
 ## Deployment Context
 
-The system supports municipal telemedicine servi
+The system is deployed in real municipal telemedicine operations in Kamphaeng Phet, Thailand, providing structured patient intake and pre-consultation screening for local healthcare services. [Reference](https://www.kppmu.go.th/news-detail?hd=1&id=124000)
