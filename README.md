@@ -66,7 +66,7 @@ Patient submits intake form via web interface:
 ### Key Considerations
 
 * Ensured **data correctness** for clinical usage through validation
-* Designed a **lightweight architecture** for rapid deployment
+* Designed the system based on requirements from nursing staff to support clinical workflows.
 * Integrated with existing healthcare workflows without disruption
 * Prioritized simplicity for non-technical users
 
