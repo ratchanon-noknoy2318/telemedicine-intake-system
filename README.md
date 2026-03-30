@@ -2,6 +2,8 @@
 
 A production-grade web platform for automating patient intake and pre-consultation screening in telemedicine workflows.
 
+![Municipal Deployment](https://img.shields.io/badge/Deployment-Active%20in%20Kamphaeng%20Phet-brightgreen)  
+
 Designed to streamline patient onboarding, reduce administrative overhead, and provide healthcare staff with structured patient data prior to consultations.
 
 Deployed and actively used in municipal healthcare operations in Kamphaeng Phet, Thailand.
@@ -63,6 +65,7 @@ A web-based intake system that digitizes and automates the entire onboarding wor
 ## Architecture
 
 Patient submits intake form via web interface:
+
 
 ```
 [Patient]
