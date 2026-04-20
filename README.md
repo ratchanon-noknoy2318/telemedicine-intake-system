@@ -3,8 +3,8 @@
 A production system for digitizing patient intake workflows in municipal healthcare operations.
 
 ## Impact
-- Reduced intake processing time from 24+ hours → under 1 hour  
-- Used in live operations supporting 40K+ population  
+- Reduced staff workload by 80% by digitizing manual intake processes  
+- Used in live operations supporting a 40K+ population  
 - Delivered in 30 days (~฿9K budget)  
 
 ## Overview
