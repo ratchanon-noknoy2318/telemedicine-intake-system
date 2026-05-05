@@ -1,32 +1,57 @@
 # Patient Intake System
 
-A Next.js-based patient intake system for healthcare registration workflows and structured data collection.
+<p align="center">
+  <img src="https://img.shields.io/badge/Healthcare%20System-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Full%20Stack%20Application-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Production%20Use-111111?style=flat-square" />
+</p>
+
+---
+
+## Overview
+
+A Next.js-based patient intake system designed for healthcare registration workflows and structured clinical data collection.
+
+The system is used in a real-world healthcare environment to support patient registration and reduce manual processing in clinical intake operations.
 
 ---
 
 ## Features
-- Patient registration form  
-- Structured data collection  
-- Responsive UI  
+
+- Patient registration and intake form
+- Structured healthcare data collection
+- Form validation and data integrity handling
+- Responsive UI for staff and patient-facing usage
+- API-based data submission workflow
 
 ---
 
 ## Tech Stack
-Next.js • React • TailwindCSS  
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TailwindCSS-111111?style=flat-square&logo=tailwindcss&logoColor=white" />
+</p>
+
+---
+
+## System Architecture
+
+Patient → Intake Form → API Layer → Validation Layer → Database → Staff Review Interface
 
 ---
 
 ## Impact
-- Serving 40,000+ users in a real-world healthcare environment  
-- Reduced manual processing by ~80% in patient intake workflows
+
+- Deployed in a real municipal healthcare environment
+- Supports over 40,000 users in operational usage
+- Reduced manual patient intake processing by approximately 80%
+- Improved consistency of structured clinical data collection
 
 ---
 
-## System Flow
-Patient → Form → API → Validation → Database → Staff Review  
+## Production Environment
 
----
-
-## Production Usage
-Deployed in a municipal healthcare workflow environment:  
-https://www.kppmu.go.th/news-detail?hd=1&id=124000  
+<img src="https://img.shields.io/badge/Production%20Use-111111?style=flat-square" />  
+https://www.kppmu.go.th/news-detail?hd=1&id=124000
